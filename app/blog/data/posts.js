@@ -47,7 +47,53 @@ export const posts = [
       },
     ],
   },
-  // Próximos artículos: agregá un objeto más acá con la misma estructura
-  // (slug, title, excerpt, image, category, readTime, date, intro, sections, benefits).
-  // La página /blog/[slug] los va a renderizar automáticamente, sin tocar más código.
+  {
+    slug: "control-acceso",
+    title: "Por qué controlar el acceso de tu gimnasio es el primer paso para tomar mejores decisiones",
+    excerpt:
+      "Saber quién entra, cuándo y con qué frecuencia no es solo un tema de seguridad. Es la base de datos que te permite entender tu negocio y tomar decisiones con información real, no con intuición.",
+    image: "/blog/control-acceso-gimnasio.jpg",
+    category: "Control de acceso",
+    readTime: "7 min de lectura",
+    date: "2026-06-25",
+    intro:
+      "Muchos gimnasios controlan quién entra solo de forma visual: alguien en la recepción reconoce caras o pide que muestren el carnet. Funciona mientras el gimnasio es chico, pero a medida que crece se vuelve imposible saber con precisión cuántas visitas tiene cada socio, qué días y horarios se llenan más, o quién dejó de venir sin haberse dado de baja formalmente.",
+    sections: [
+      {
+        heading: "El check-in no es solo seguridad, es información",
+        paragraphs: [
+          "Cuando el control de acceso se hace con un código QR escaneado en la entrada, cada ingreso queda registrado automáticamente: quién entró, a qué hora y en qué día. Eso que parece un simple trámite de entrada se convierte, con el tiempo, en una base de datos completa sobre cómo se usa realmente tu gimnasio.",
+          "La diferencia con el control manual no es solo de comodidad. Es que el control manual no genera ningún dato que puedas analizar después; el control con QR sí.",
+        ],
+      },
+      {
+        heading: "Qué decisiones se pueden tomar con esos datos",
+        paragraphs: [
+          "Una vez que el sistema acumula registros de asistencia, empiezan a aparecer patrones que a simple vista son difíciles de notar. Por ejemplo, identificar las franjas horarias de mayor demanda te permite decidir si conviene sumar más clases en ese horario o reforzar el personal disponible. Detectar qué días de la semana tienen menos asistencia ayuda a planificar promociones o eventos específicos para esos días.",
+          "También permite detectar algo que suele pasar desapercibido: socios que pagan la cuota pero dejaron de ir. Ese dato es valioso porque un socio que no asiste tiene mucho más riesgo de no renovar el mes siguiente, y identificarlo a tiempo te da la oportunidad de contactarlo antes de perderlo definitivamente.",
+        ],
+      },
+      {
+        heading: "De la intuición a la decisión basada en datos",
+        paragraphs: [
+          "La mayoría de los dueños de gimnasio toman decisiones de horarios, clases y promociones basándose en lo que perciben día a día, lo cual no está mal, pero es una visión parcial. Combinar esa experiencia con datos reales de asistencia permite confirmar o corregir esas intuiciones con información concreta, reduciendo el margen de error en decisiones que afectan directamente los ingresos del negocio.",
+          "Con GymFlowPro, cada check-in con QR se refleja automáticamente en el dashboard administrativo, junto con el resto de la información del socio (su plan, su estado de pago, su historial de asistencia), todo en un mismo lugar, sin necesidad de cruzar planillas distintas.",
+        ],
+      },
+    ],
+    benefits: [
+      {
+        title: "Datos de asistencia en tiempo real",
+        text: "Sabés en todo momento cuántos socios están dentro del gimnasio y cómo varía la ocupación a lo largo del día.",
+      },
+      {
+        title: "Detección temprana de socios inactivos",
+        text: "Identificás quién dejó de asistir antes de que decida no renovar, y podés actuar a tiempo.",
+      },
+      {
+        title: "Decisiones de horarios y clases con base real",
+        text: "Ajustás turnos, clases y promociones según los patrones de uso reales de tu gimnasio, no solo por percepción.",
+      },
+    ],
+  },
 ];
