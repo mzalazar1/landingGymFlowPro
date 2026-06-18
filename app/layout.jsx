@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "GymFlowPro | Automatizá la gestión de tu gimnasio",
+  title: "GymFlowPro | Software de Gestión para Gimnasios en Argentina",
   description:
     "Gestioná socios, pagos, turnos, stock, clases y reportes desde una única plataforma. 30 días de prueba gratuita.",
   icons: {
