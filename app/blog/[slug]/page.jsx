@@ -37,8 +37,18 @@ export default function BlogArticle({ params }) {
               href="/blog"
               className="inline-flex items-center gap-2 text-sm text-blue-300 hover:text-blue-200 transition-colors"
             >
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15 19l-7-7 7-7"
+                />
               </svg>
               Volver al blog
             </Link>
@@ -130,7 +140,7 @@ export default function BlogArticle({ params }) {
             crecer tu negocio.
           </p>
           <a
-            href="https://www.gymflowpro.online/form"
+            href="https://www.gymflowpro.com/form"
             className="inline-flex items-center justify-center gap-2 bg-white text-blue-700 hover:bg-blue-50 font-semibold text-sm px-6 py-3 rounded-xl transition-colors shadow-lg"
           >
             Solicitar prueba gratuita
